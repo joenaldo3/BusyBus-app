@@ -1,0 +1,315 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #535353;
+  font-family: raleway ;
+  background: #DADADA;
+}
+
+.container {
+  width: 375px;
+  height: 667px;
+  margin: auto;
+}
+
+.status-bar {
+  font-size: 12px;
+  background: #007AFF;
+  margin: 0;
+  height: 20px;
+  text-align: center;
+}
+
+.status-left {
+  display: inline-block;
+  width: 30%;
+  /*margin: 1.66px;*/
+  text-align: center;
+  vertical-align: top;
+  float: left;
+  margin: 0 1.66%;
+  padding-top: 1%;
+}
+
+.status-middle {
+  display: inline-block;
+  width: 30%;
+  /*margin: 1.66px;*/
+  text-align: center;
+  vertical-align: top;
+  float: left;
+  margin: 0 1.66%;
+  padding-top: 1%;
+}
+
+.status-right {
+  display: inline-block;
+  width: 30%;
+  /*margin: 1.66px;*/
+  text-align: center;
+  vertical-align: top;
+  float: left;
+  margin: 0 1.66%;
+  padding-top: 1%;
+}
+
+.signal-icons {
+  float: left;
+  padding-right: 2px;
+  padding-left: 1px;
+  color: white;
+}
+
+
+.battery {
+  float: right;
+  color: white;
+}
+
+
+.status-time {
+  font-size: 12px;
+  color: white;
+  font-family: SF Pro Text;
+}
+
+
+
+
+/*.top-nav {
+  margin: auto;
+  width: 375px;
+  height: 44px;
+  background-color: #007AFF;
+  text-align: center;
+}*/
+
+
+.top-nav {
+  background: #007AFF;
+  /*text-align: center;
+  margin: 0;*/
+  height: 44px;
+  width: 100%;
+}
+
+.top-nav-box1 {
+  display: inline;
+  width: 20%;
+  /*margin: 1.66px;*/
+  /*text-align: */
+  float: left;
+  margin: 0 1.66%;
+  height: 44px;
+  line-height: 100%;
+}
+
+.top-nav-box2 {
+  display: inline-block;
+  width: 50%;
+  /*margin: 1.66px;*/
+  text-align: center;
+  /*vertical-align: top;*/
+  float: left;
+  margin: 0 1.66%;
+  height: 44px;
+  line-height: 100%;
+}
+
+
+.top-nav-box3 {
+  display: inline-block;
+  width: 20%;
+  /*margin: 1.66px;*/
+  text-align: right;
+  vertical-align: top;
+  float: right;
+  margin: 0;
+  height: 44px;
+  line-height: 44px;
+  padding-right: 16px;
+}
+
+.top-nav h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+
+.chevron-left {
+  display: inline-block;
+  color: white;
+  height: 44px;
+  padding-top: 4.5px
+}
+
+.back-text {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  font-size: 17px;
+  line-height: 44px;
+  padding-left: 6px;
+
+}
+
+.star-right {
+  color: white;
+}
+
+.frequency {
+  font-size:12px;
+  color: #888888;
+}
+
+.heading {
+  width: 100%;
+  height: 60px;
+  /*line-height: 30px;*/
+  background-color: #EBF0F5;
+  /*padding-left: 16px;*/
+  border: 0.5px solid #BCBBC1;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  padding-left: 16px;
+  padding-top: 30px;
+}
+
+.heading h2 {
+  font-size: 16px;
+  color: #535353;
+  font-style: bold;
+}
+
+.map {
+  background-color: white;
+  background-image: url(../images/BusyBus-Map.png);
+  height: 219px;
+  width: 375px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bus-stops {
+  height: 335px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+.bus-entry {
+  height: 60px;
+  margin: 0;
+  border-bottom: 1px solid #BCBBC1;
+  padding: 0px 16px;
+  width: 375px;
+
+}
+
+.bus-entry:hover {
+  background-color: #ECECEC;
+
+}
+.bus-entry-last:hover {
+  background-color: #ECECEC;
+}
+
+
+.bus-entry-last {
+  height: 60px;
+  margin: 0;
+  /*border-bottom: 1px solid #BCBBC1;*/
+  padding: 0px 16px;
+  width: 375px;
+}
+
+.bus-line {
+  float: left;
+  font-size: 16px;
+  border: 1px solid #535353;
+  text-align: center;
+  border-radius: 4px;
+  width: 40px;
+  height: 25px;
+  line-height: 25px;
+  margin-right: 16px;
+  margin-top: 16.5px;
+}
+
+.bus-destination {
+  float: left;
+  font-size: 14px;
+  line-height: 100%;
+  padding-top: 16px;
+}
+
+.arrow {
+  float:right;
+
+  color: #BCBBC1;
+  margin-top: 12.5px;
+
+}
+
+.bottom-navbar {
+  width: 375px;
+  height: 49px;
+  margin: 0 auto;
+  background-color: #F9F9F8;
+  color: #A1A1A1;
+  /*text-align: center;*/
+  padding: 0px 0px 0px 0px;
+
+  border: 0.2px solid #F4F4F4;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.home-button {
+  text-align: center;
+  float: left;
+  width: 45%;
+  margin: 2.5px;
+  padding-top: 6px;
+}
+.nearby-button {
+  text-align: center;
+  float: left;
+  width: 45%;
+  margin: 2.5px;
+  padding-top: 6px;
+}
+
+.home-icon {
+  display:block;
+}
+
+.bus-icon{
+  display:block;
+  color: #007AFF;
+}
+
+.bus-text {
+  color: #007AFF;
+  font-size: 10px;
+  display: block;
+  padding-top: 2px;
+}
+
+.home-text {
+  font-size: 10px;
+  display:block;
+  padding-top: 2px;
+}
+
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
