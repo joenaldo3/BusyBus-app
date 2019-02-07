@@ -4,9 +4,16 @@
 
 body {
   color: #535353;
-  font-family: raleway ;
+  font-family: 'Raleway', sans-serif;
   background: #DADADA;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 
 .container {
   width: 375px;
@@ -96,9 +103,8 @@ body {
 }
 
 .top-nav-box1 {
-  display: inline;
+  display: inline-block;
   width: 20%;
-  /*margin: 1.66px;*/
   /*text-align: */
   float: left;
   margin: 0 1.66%;
@@ -111,11 +117,9 @@ body {
   width: 50%;
   /*margin: 1.66px;*/
   text-align: center;
-  /*vertical-align: top;*/
   float: left;
   margin: 0 1.66%;
   height: 44px;
-  line-height: 100%;
 }
 
 
@@ -132,15 +136,17 @@ body {
   padding-right: 16px;
 }
 
-.top-nav h1 {
+h1 {
   color: white;
   font-weight: bold;
   font-size: 17px;
+  margin: auto;
+  line-height: 44px;
 }
 
 
 .chevron-left {
-  display: inline-block;
+  float: left;
   color: white;
   height: 44px;
   padding-top: 4.5px
@@ -149,6 +155,7 @@ body {
 .back-text {
   display: inline-block;
   position: absolute;
+  float: left;
   color: white;
   font-size: 17px;
   line-height: 44px;
@@ -163,6 +170,7 @@ body {
 .frequency {
   font-size:12px;
   color: #888888;
+  font-weight: normal;
 }
 
 .heading {
@@ -175,18 +183,18 @@ body {
   border-left-color: transparent;
   border-right-color: transparent;
   padding-left: 16px;
-  padding-top: 30px;
+  padding-top: 35px;
 }
 
 .heading h2 {
   font-size: 16px;
   color: #535353;
-  font-style: bold;
+  font-weight: normal;
 }
 
 .map {
   background-color: white;
-  background-image: url(../images/BusyBus-Map.png);
+  background-image: url(../images/busybus-map.png);
   height: 219px;
   width: 375px;
   background-position: center;
@@ -204,7 +212,7 @@ body {
 .bus-entry {
   height: 60px;
   margin: 0;
-  border-bottom: 1px solid #BCBBC1;
+  border-bottom: 0.5px solid #BCBBC1;
   padding: 0px 16px;
   width: 375px;
 
@@ -237,7 +245,7 @@ body {
   height: 25px;
   line-height: 25px;
   margin-right: 16px;
-  margin-top: 16.5px;
+  margin-top: 17.5px;
 }
 
 .bus-destination {
@@ -245,6 +253,26 @@ body {
   font-size: 14px;
   line-height: 100%;
   padding-top: 16px;
+  width: 196px;
+  font-weight: bold;
+}
+
+.arrival-time {
+  float: left;
+  display: absolute;
+  font-size: 14px;
+  line-height: 100%;
+  padding-top: 16px;
+}
+
+.status-on-time {
+  color: #4CAF50;
+  font-size: 12px;
+}
+
+.status-delayed {
+  color: #FF0000;
+  font-size: 12px;
 }
 
 .arrow {
@@ -258,12 +286,10 @@ body {
 .bottom-navbar {
   width: 375px;
   height: 49px;
-  margin: 0 auto;
+  margin: auto;
   background-color: #F9F9F8;
   color: #A1A1A1;
-  /*text-align: center;*/
-  padding: 0px 0px 0px 0px;
-
+  padding: 0;
   border: 0.2px solid #F4F4F4;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -273,16 +299,21 @@ body {
 .home-button {
   text-align: center;
   float: left;
-  width: 45%;
-  margin: 2.5px;
-  padding-top: 6px;
+  width: 50%;
+  height: 49px;
+  margin: 0;
+  padding-top: 9px;
+  /*padding-top: 6px;*/
 }
 .nearby-button {
   text-align: center;
   float: left;
-  width: 45%;
-  margin: 2.5px;
-  padding-top: 6px;
+  width: 50%;
+  margin: 0;
+  height: 100%;
+  padding-top: 9px;
+
+  /*padding-top: 6px;*/
 }
 
 .home-icon {
