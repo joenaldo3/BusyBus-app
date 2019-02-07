@@ -194,12 +194,15 @@ h1 {
 
 .map {
   background-color: white;
-  background-image: url(../images/busybus-map.png);
   height: 219px;
   width: 375px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+img {
+  max-width: 100%
 }
 
 .bus-stops {
