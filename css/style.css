@@ -193,15 +193,11 @@ h1 {
 }
 
 .map {
-  background-color: white;
   height: 219px;
   width: 375px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-img {
+.map img {
   max-width: 100%
 }
 
