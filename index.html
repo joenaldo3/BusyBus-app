@@ -41,65 +41,65 @@
           </li>
         </ul>
         </header>
-        <section class="map">
+        <!--<section class="map">
           <img src="images/BusyBus-Map.png" alt="mobile-app-map">
-        </section>
+        </section> -->
         <ul class="bus-stops">
-          <li class="heading">
-            <h2>Eastbound</h2>
+          <li class="heading-departure">
+            <h2>Departures</h2>
           </li>
 
           <li class="bus-entry">
             <ul>
               <li class="bus-line">60
               </li>
-              <li class="bus-destination"><b>Randolph/Harbor Dr</b><br><span class="frequency">Every 20 minutes</span>
+              <li class="bus-destination"><b>Randolph/Harbor Dr</b><br><span class="direction">Eastbound</span>
               </li>
-              <li class="arrival-time">3:40 PM<br><span class="status-on-time">On Time</span>
+              <li class="arrival-time">3:40 PM<br><span class="frequency">Every 20 min</span>
               </li>
               <li class="arrow">
               <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
               </li>
             </ul>
           </li>
-          <li class="bus-entry-last">
+          <li class="bus-entry">
             <ul>
               <li class="bus-line">124
               </li>
-              <li class="bus-destination"><b>Navy Pier</b><br><span class="frequency">Every 10 minutes</span>
+              <li class="bus-destination"><b>Navy Pier</b><br><span class="direction">Eastbound</span>
               </li>
-              <li class="arrival-time">3:55 PM<br><span class="status-on-time">On Time</span>
+              <li class="arrival-time">3:55 PM<br><span class="frequency">Every 10 min</span>
               </li>
               <li class="arrow">
                 <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
               </li>
             </ul>
           </li>
-          <li class="heading">
+          <!--<li class="heading">
             <h2>Northbound</h2>
-          </li>
-          <li class="bus-entry-last">
+          </li> -->
+          <li class="bus-entry">
             <ul>
               <li class="bus-line">151
               </li>
-              <li class="bus-destination"><b>Devon/Clark</b><br><span class="frequency">Every 16 minutes</span>
+              <li class="bus-destination"><b>Devon/Clark</b><br><span class="direction">Northbound</span>
               </li>
-              <li class="arrival-time">4:08 PM<br><span class="status-delayed"><i class="fa fa-exclamation-circle exclaim-icon" aria-hidden="true"></i> DELAYED</span>
+              <li class="arrival-time">4:08 PM<br><span class="frequency">Every 16 min</span>
               </li>
               <li class="arrow">
                 <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
               </li>
           </ul>
-          <li class="heading">
-            <h2>Southbound</h2>
+          <!--<li class="heading">
+            <h2>Southbound</h2> -->
           </li>
           <li class="bus-entry">
             <ul>
               <li class="bus-line">J14
               </li>
-              <li class="bus-destination"><b>103rd/Stony Island</b><br><span class="frequency">Every 15 minutes</span>
+              <li class="bus-destination"><b>103rd/Stony Island</b><br><span class="direction">Southbound</span>
               </li>
-              <li class="arrival-time">4:15 PM<br><span class="status-on-time">On Time</span>
+              <li class="arrival-time">4:15 PM<br><span class="frequency">Every 15 min</span>
               </li>
               <li class="arrow">
                 <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
@@ -109,55 +109,59 @@
             <ul>
               <li class="bus-line">124
               </li>
-              <li class="bus-destination"><b>Navy Pier</b><br><span class="frequency">Every 10 minutes</span>
+              <li class="bus-destination"><b>Navy Pier</b><br><span class="direction">Southbound</span>
               </li >
-              <li class="arrival-time">4:20 PM<br><span class="status-on-time">On Time</span>
+              <li class="arrival-time">4:20 PM<br><span class="frequency">Every 10 min</span>
               </li>
               <li class="arrow">
                 <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
               </li>
             </ul>
-          <li class="heading">
-            <h2>Reroute</h2>
+          <li class="divider">
           </li>
-          <li class="bus-entry-last">
+          <li class="heading-reroute">
+            <h2>Reroute <i class="fa fa-arrows-h" aria-hidden="true"></i></h2>
+          </li>
+          <li class="bus-entry-reroute">
             <ul>
               <li class="bus-line">6x
               </li>
-              <li class="bus-destination"><b>Jackson Park Express</b><br><span class="frequency">N/A</span>
+              <li class="bus-destination"><b>Jackson Park Express</b><br><span class="direction">N/A</span>
               </li>
               <li class="arrow">
                 <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
               </li>
             </ul>
-          <li class="heading">
-            <h2>Out-Of-Service</h2>
+          <li class="divider">
           </li>
-          <li class="bus-entry">
+          <li class="heading-oos">
+            <h2>Out-Of-Service <i class="fa fa-exclamation-circle exclaim-icon" aria-hidden="true"></i></h2>
+          </li>
+          <li class="bus-entry-oos">
             <ul>
               <li class="bus-line">4
               </li>
-              <li class="bus-destination"><b>Cottage Grove</b><br><span class="frequency">Resumes 12:10am</span>
+              <li class="bus-destination"><b>Cottage Grove</b><br><span class="direction">Resumes 12:10am</span>
               </li>
               <li class="arrow">
                 <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
               </li>
             </ul>
-          <li class="bus-entry">
+          <li class="bus-entry-oos">
             <ul>
               <li class="bus-line">20
               </li>
-              <li class="bus-destination"><b>Madison</b><br><span class="frequency">Resumes 12:10am</span>
+              <li class="bus-destination"><b>Madison</b><br><span class="direction">Resumes 12:10am</span>
               </li>
               <li class="arrow">
                 <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
               </li>
             </ul>
-          <li class="bus-entry-last">
+          <li class="bus-entry-oos">
             <ul>
               <li class="bus-line">157
               </li>
-              <li class="bus-destination"><b>Streeterville/Taylor</b><br><span class="frequency">Resumes 6:00am</span>
+              <li class="bus-destination"><b>Streeterville/Taylor</b><br><span class="direction">Resumes 6:00am</span>
               </li>
               <li class="arrow">
                 <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>

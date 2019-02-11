@@ -167,16 +167,16 @@ h1 {
   color: white;
 }
 
-.frequency {
+.direction {
   font-size:12px;
   color: #888888;
   font-weight: normal;
 }
 
-.heading {
+.heading-departure {
   width: 100%;
   height: 35px;
-  /*line-height: 30px;*/
+  line-height: 35px;
   background-color: #EBF0F5;
   /*padding-left: 16px;*/
   border: 0.5px solid #BCBBC1;
@@ -186,24 +186,51 @@ h1 {
 
 }
 
-.heading h2 {
+.heading-reroute {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  background-color: #FFF8E4;
+  border: 0.5px solid #BCBBC1;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  padding-left: 16px;
+
+}
+
+.heading-oos {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  background-color: #FFF6F8;
+  /*padding-left: 16px;*/
+  border: 0.5px solid #BCBBC1;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  padding-left: 16px;
+
+}
+
+
+
+/*.heading h2 {
   font-size: 16px;
   color: #535353;
   font-weight: normal;
   line-height: 35px;
-}
+}*/
 
-.map {
+/*.map {
   height: 219px;
   width: 375px;
-}
+}*/
 
-.map img {
+/*.map img {
   max-width: 100%
 }
-
+*/
 .bus-stops {
-  height: 335px;
+  height: 554px;
   overflow-y: scroll;
   overflow-x: hidden;
   background-color: white;
@@ -215,7 +242,24 @@ h1 {
   border-bottom: 0.5px solid #BCBBC1;
   padding: 0px 16px;
   width: 375px;
+}
 
+.bus-entry-reroute {
+  height: 60px;
+  margin: 0;
+  border-bottom: 0.5px solid #BCBBC1;
+  padding: 0px 16px;
+  width: 375px;
+  background-color: white;
+}
+
+.bus-entry-oos {
+  height: 60px;
+  margin: 0;
+  border-bottom: 0.5px solid #BCBBC1;
+  padding: 0px 16px;
+  width: 375px;
+  background-color: white;
 }
 
 .bus-entry:hover {
@@ -226,13 +270,29 @@ h1 {
   background-color: #ECECEC;
 }
 
+.bus-entry-reroute:hover {
+  background-color: #ECECEC;
+}
+
+.bus-entry-oos:hover {
+  background-color: #ECECEC;
+}
+
+
 
 .bus-entry-last {
   height: 60px;
   margin: 0;
-  /*border-bottom: 1px solid #BCBBC1;*/
+  border-bottom: 1px solid #BCBBC1;
   padding: 0px 16px;
   width: 375px;
+}
+
+.divider {
+  height: 15px;
+  margin: 0;
+  display: block;
+  background-color: #E9E9E9;
 }
 
 .bus-line {
@@ -253,7 +313,7 @@ h1 {
   font-size: 14px;
   line-height: 100%;
   padding-top: 16px;
-  width: 196px;
+  width: 186px;
   font-weight: bold;
 }
 
@@ -263,17 +323,20 @@ h1 {
   font-size: 14px;
   line-height: 100%;
   padding-top: 16px;
+  font-weight: bold;
+
 }
 
-.status-on-time {
-  color: #4CAF50;
+.frequency {
   font-size: 12px;
+  font-weight: normal;
+  color: #888888;
 }
 
-.status-delayed {
+/*.status-delayed {
   color: #FF0000;
   font-size: 12px;
-}
+}*/
 
 .arrow {
   float:right;
